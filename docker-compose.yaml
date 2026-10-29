@@ -13,7 +13,7 @@ services:
     image: curlimages/curl:8.17.0
     user: "0:0"
     environment:
-      DATA_URL: ${DATA_URL:-https://github.com/mydeclass101/de-class-session-7/releases/download/timeline-v1/shop_timeline.dump}
+      DATA_URL: ${DATA_URL:-https://github.com/mydeclass101/data-sources/releases/download/timeline-v1/shop_timeline.dump}
     volumes:
       - ./data:/data
       - ./docker/shop-db/download.sh:/download.sh:ro
