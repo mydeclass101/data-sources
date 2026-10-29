@@ -1,0 +1,7 @@
+# data file comes from the GitHub Release (too big for git)
+data/*.dump
+data/*.part
+
+# files the partner drops while the stack runs
+inbox/marketplace/*
+!inbox/marketplace/.gitkeep
