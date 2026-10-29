@@ -9,6 +9,8 @@ repo นี้คือระบบที่ **ทีม SWE และ partner**
 | `partner-drop` | partner วางไฟล์ CSV ยอดขายบน marketplace ทุกคืน | โฟลเดอร์ `inbox/marketplace/` | mount โฟลเดอร์นี้เข้าไป |
 | `shop-api` | API ค่าโฆษณารายวัน | http://localhost:8000/docs | `http://shop-api:8000` |
 
+รายละเอียดทุกตาราง คอลัมน์ และ ER diagram ดูใน [docs/data_dictionary.md](docs/data_dictionary.md)
+
 **ร้านนี้มีชีวิต:** ข้อมูลเดินตามนาฬิกาจริง (เวลาไทย) ทุกนาทีจะมี order ใหม่ ลูกค้าใหม่ และ order เก่าเปลี่ยนสถานะ
 ไปจนถึง **31 ม.ค. 2027** เปิดทิ้งไว้แล้วทุกวันจะมีข้อมูลของเมื่อวานเพิ่มเข้ามา
 

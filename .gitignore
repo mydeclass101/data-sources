@@ -1,3 +1,5 @@
+.env
+
 # data file comes from the GitHub Release (too big for git)
 data/*.dump
 data/*.part
